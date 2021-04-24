@@ -9,8 +9,16 @@
   color: #018e42;
 }
 
+.bg-pc-green {
+  background-color: #018e42;
+}
+
 .pc-red {
   color: #731013;
+}
+
+.bg-pc-red {
+  background-color: #731013;
 }
 
 .pc-white {
@@ -47,16 +55,24 @@
   color: #5f7081;
 }
 
+/* new-white */
+/* .bg-content {
+  background-color: #f3f5f6;
+} */
+
 /* text */
 .p-title {
   font-size: 80px;
   font-weight: 600;
 }
 
-/* sizes */
+
+/* sizes, layout */
 .w25 {
   width: 3rem;
 }
+
+.top-4 { top: 6rem; }
 
 .khoiVuong {
   border-radius: 30px;
