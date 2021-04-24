@@ -4,7 +4,75 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/* colors */
+.pc-green {
+  color: #018e42;
+}
+
+.pc-red {
+  color: #731013;
+}
+
+.pc-white {
+  color: #ebebec;
+}
+
+.pc-white-title {
+  color: #eefcfa;
+}
+.pc-pink-white {
+  color: #c79fa1;
+}
+
+.pc-new-white {
+  color: #f3f5f6;
+}
+
+.pc-pink {
+  color: #df1869;
+}
+
+.pc-black {
+  color: #0f1428;
+}
+
+.pc-light-black {
+  color: #5f7081;
+}
+
 .test {
   font-size: 30;
   color: green;
+}
+
+/* text */
+.p-title {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+/* sizes */
+.w25 {
+  width: 3rem;
+}
+
+.khoiVuong {
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: solid 2px #731013;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@media only screen and (min-width: 60em) {
+  .khoiVuong {
+    width: 208px;
+    height: 206px;
+  }
+  .soTo {
+    font-size: 100px;
+    line-height: 99px;
+    font-weight: normal;
+  }
 }
