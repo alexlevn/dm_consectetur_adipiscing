@@ -36,13 +36,15 @@
   color: #0f1428;
 }
 
-.pc-light-black {
-  color: #5f7081;
+.pc-black-intro {
+  color: #707070;
 }
 
-.test {
-  font-size: 30;
-  color: green;
+.pc-black-intro-content {
+  color: #343741;
+}
+.pc-light-black {
+  color: #5f7081;
 }
 
 /* text */
@@ -73,6 +75,6 @@
   .soTo {
     font-size: 100px;
     line-height: 99px;
-    font-weight: normal;
+    font-weight: bold;
   }
 }
