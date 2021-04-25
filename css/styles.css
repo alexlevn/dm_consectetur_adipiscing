@@ -51,6 +51,9 @@
   color: #707070;
 }
 
+.pc-near-black{
+  color: #AEAFB3;
+}
 .pc-black-intro-content {
   color: #343741;
 }
@@ -69,13 +72,21 @@
   font-weight: 600;
 }
 
-
 /* sizes, layout */
 .w25 {
   width: 3rem;
 }
+.h7 {
+  height: 500px;
+}
 
-.top-4 { top: 6rem; }
+.top-4 {
+  top: 6rem;
+}
+
+.top--3 {
+  top: -4rem;
+}
 
 .khoiVuong {
   border-radius: 30px;
