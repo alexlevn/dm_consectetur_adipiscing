@@ -32,10 +32,10 @@
   color: #c79fa1;
 }
 
-.pc-new-white {
+.pc-near-white {
   color: #f3f5f6;
 }
-.bg-pc-new-white {
+.bg-pc-near-white {
   background-color: #f3f5f6;
 }
 
@@ -51,8 +51,8 @@
   color: #707070;
 }
 
-.pc-near-black{
-  color: #AEAFB3;
+.pc-near-black {
+  color: #aeafb3;
 }
 .pc-black-intro-content {
   color: #343741;
@@ -61,7 +61,7 @@
   color: #5f7081;
 }
 
-/* new-white */
+/* near-white */
 /* .bg-content {
   background-color: #f3f5f6;
 } */
@@ -71,6 +71,7 @@
   font-size: 80px;
   font-weight: 600;
 }
+
 
 /* sizes, layout */
 .w25 {
