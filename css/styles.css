@@ -68,7 +68,7 @@
   color: #707070;
 }
 
-.b--pc-gray{
+.b--pc-gray {
   color: #707070;
 }
 
@@ -89,10 +89,6 @@ _qa-title
 
 .cau-hoi-active,
 .cau-hoi {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 40px;
-
   color: #343741;
   background-color: white;
 }
@@ -100,7 +96,6 @@ _qa-title
   color: #ebebec;
   background-color: #731013;
 }
-
 
 .cau-tra-loi {
   font-weight: 400;
