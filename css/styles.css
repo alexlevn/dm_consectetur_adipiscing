@@ -57,6 +57,10 @@
 .pc-near-black {
   color: #aeafb3;
 }
+
+.pc-info {
+  color: #D6D7D9
+}
 /* .pc-black-intro-content {
   color: #343741;
 } */
@@ -100,6 +104,8 @@ _qa-title
   background-color: #731013;
 }
 
+
+
 .cau-tra-loi {
   font-weight: 400;
   font-size: 16px;
@@ -109,6 +115,11 @@ _qa-title
   transition: 'all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1)';
   overflow: hidden;
 }
+
+.f25 {
+  font-size: 1.8rem;
+}
+
 
 /* sizes, layout */
 .w25 {
@@ -135,7 +146,7 @@ _qa-title
 }
 
 .khoiVuong {
-  border-radius: 30px;
+  /* border-radius: 30px; */
   background-color: rgba(255, 255, 255, 0.15);
   border: solid 2px #731013;
   opacity: 1;

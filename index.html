@@ -13,10 +13,10 @@
 
     <!-- fixed top-0 -->
     <div
-      class="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv3 bg-white justify-between items-center "
+      class="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv3 bg-white justify-between items-center"
     >
-      <img src="images/logo_red.svg" alt="" class  ="w22"/>
-      <img src="images/svg_bars.svg" alt="" class = "pointer w2" />
+      <img src="images/logo_red.svg" alt="" class="w22" />
+      <img src="images/svg_bars.svg" alt="" class="pointer w2" />
     </div>
 
     <!-- <img src="./layout/mb_0__top_menu.png" alt="" class="db db-m dn-l w-100" /> -->
@@ -47,15 +47,85 @@
 
     <!-- end desktop menu  -->
 
-    <div class="db dn-l vh-100 bg-light-pink cover" style = "background-image: url(images/mb_background.png);">
+    <div
+      id="mobile-count-down"
+      class="debug  flex dn-l vh-100 cover white flex-column items-center justify-center"
+      style="background-image: url(images/mb_background.png)"
+    >
+      <div id="_mb-group-count-down" class=" flex justify-center items-end">
+        <!--  days -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">DAYS</div>
+          <div
+            class="khoiVuong br4 w3 h3 f25 fw4 flex justify-center items-center"
+          >
+            00
+          </div>
+        </div>
 
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  hours -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">HOURS</div>
+          <div
+            class="khoiVuong br4 w3 h3 f25 fw4 flex justify-center items-center"
+          >
+            13
+          </div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  minutes -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">MINUTES</div>
+          <div
+            class="khoiVuong br4 w3 h3 f25 fw4 flex justify-center items-center"
+          >
+            24
+          </div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  seconds -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">SECONDS</div>
+          <div
+            class="khoiVuong br4 w3 h3 f25 fw4 flex justify-center items-center"
+          >
+            15
+          </div>
+        </div>
+      </div>
+      <!-- end group count down -->
+      <p class="tc f2 fw5 center w-90 mt4">
+        AI BOOTCAMP <br /><span class="i fw4 tracked"> for </span> START UP
+      </p>
+
+      <div class="tc pc-info tracked f6 w-80 center lh-title pt4">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+      </div>
     </div>
+
     <p class="pv6 tc">cound down</p>
-    <img
-      src="./layout/mb_0_count_down.png"
-      alt=""
-      class="db dn-l w-100 mt2 ba b--green"
-    />
+
+    <img src="./layout/mb_0_count_down.png" alt="" class="db dn-l w-100 mt2" />
 
     <!-- desktop countdown -->
     <div
@@ -68,7 +138,7 @@
           <p class="">AI BOOTCAMP</p>
           <p class="pt3"><span class="fw4">for</span> STARTUP</p>
         </div>
-        <div class="tc pc-white tracked f3 w-100 center lh-title pt4">
+        <div class="tc pc-info tracked f3 w-100 center lh-title pt4">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor <br />invidunt ut labore et dolore magna aliquyam
           erat, sed diam voluptua. At vero eos et <br />
@@ -641,8 +711,9 @@
     </div>
     <!-- end footer -->
 
+    <!-- fixed bottom-0 -->
     <div
-      class="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer fixed bottom-0"
+      class="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer"
     >
       APPLY NOW
     </div>
