@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 * {
   margin: 0;
@@ -18,6 +18,10 @@
 /* colors */
 .pc-green {
   color: #018e42;
+}
+
+.pc-yellow{
+  color: #F7D002;
 }
 
 .bg-pc-green {
@@ -146,8 +150,12 @@ _qa-title
   width: 12rem;
 }
 
-.w-200 { width: 200%; }
-.w-300 { width: 300%; }
+.w-200 {
+  width: 200%;
+}
+.w-300 {
+  width: 300%;
+}
 
 .h7 {
   height: 500px;
