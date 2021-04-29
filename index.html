@@ -9,19 +9,21 @@
   </head>
   <body class="sans-serif">
     <!-- <img src="./layout/top_menu.png" alt="" class="dn db-l w-100 fixed top-0" /> -->
-
     <!-- mobile - top menu-->
-    <img
-      src="./layout/mb_0__top_menu.png"
-      alt=""
-      class="db db-m dn-l w-100 fixed top-0"
-    />
+
+    <!--  -->
+    <div
+      class="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0"
+    >
+      <img src="images/logo_red.svg" alt="" class="w22" />
+      <img src="images/svg_bars.svg" alt="" class="pointer w2" />
+    </div>
+
+    <!-- <img src="./layout/mb_0__top_menu.png" alt="" class="db db-m dn-l w-100" /> -->
 
     <!-- desktop menu  -->
-    <div
-      id="desktop-menu"
-      class="dn flex-l w-100 fixed top-0 bg-white pv3 shadow-2 z-5"
-    >
+    <!-- fixed top-0  -->
+    <div id="desktop-menu" class="dn flex-l w-100 bg-white pv3 shadow-2 z-5 fixed top-0">
       <div class="w-70 center flex justify-between items-center ph5">
         <img src="images/logo_red.svg" alt="" class="w25" />
         <div class="flex items-center">
@@ -43,7 +45,76 @@
 
     <!-- end desktop menu  -->
 
-    <img src="./layout/mb_0_count_down.png" alt="" class="db dn-l w-100 mt2" />
+    <div
+      id="mobile-count-down"
+      class="flex dn-l vh-100 cover white flex-column items-center justify-center"
+      style="background-image: url(images/mb_background.png)"
+    >
+      <div id="_mb-group-count-down" class="flex justify-center items-end">
+        <!--  days -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">DAYS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
+            00
+          </div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  hours -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">HOURS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
+            13
+          </div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  minutes -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">MINUTES</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
+            24
+          </div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  seconds -->
+        <div
+          id="_khoi_vuong_1"
+          class="flex flex-column justify-center items-center"
+        >
+          <div class="f6 fw3 db mb2">SECONDS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
+            15
+          </div>
+        </div>
+      </div>
+      <!-- end group count down -->
+      <p class="tc f2 fw5 center w-90 mt4">
+        AI BOOTCAMP <br /><span class="i fw4 tracked"> for </span> START UP
+      </p>
+
+      <div class="tc pc-info tracked f6 w-80 center lh-title pt4">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+      </div>
+    </div>
+
+    <!-- <p class="pv6 tc">cound down</p>
+    <img src="./layout/mb_0_count_down.png" alt="" class="db dn-l w-100 mt2" /> -->
 
     <!-- desktop countdown -->
     <div
@@ -52,11 +123,11 @@
       style="background-image: url('images/background.png')"
     >
       <div class="flex flex-column">
-        <div class="flex flex-column p-title pc-white tracked-mega tc">
+        <div class="flex flex-column p-title pc-white tracked tc">
           <p class="">AI BOOTCAMP</p>
-          <p class="pt3"><span class="fw4 i">for</span> STARTUP</p>
+          <p class="pt3"><span class="fw4">for</span> STARTUP</p>
         </div>
-        <div class="tc pc-white tracked f3 w-100 center lh-title pt4">
+        <div class="tc pc-info tracked f3 w-100 center lh-title pt4">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor <br />invidunt ut labore et dolore magna aliquyam
           erat, sed diam voluptua. At vero eos et <br />
@@ -99,33 +170,28 @@
     /> -->
     <!-- <p class="pa3 tc">end count down</p> -->
 
-    <!-- mobile introduce -->Î
+    <!-- introduce -->
+    <!-- mobile introduce -->
 
-    <img
-      src="./layout/mb_1_introduction.png"
-      alt=""
-      class="db db-m dn-l w-100"
-    />
+    <!-- desktop introduce -->
 
-    <!-- desktop introduce -->Î
+    <div id="introduce" class="flex flex-l flex-column w-100 pt3 tc">
+      <p class="pc-green f4 ttu tracked-mega fw6 mt4 mt5-l">INTRODUCE</p>
 
-    <div id="introduce" class="dn flex-l flex-column w-100 pt3 tc">
-      <p class="pc-green f4 ttu tracked-mega fw6 mt5">INTRODUCE</p>
-
-      <p class="f2 fw6 pc-red ttu tracked-mega mt5">
+      <p class="w-90 center f3 f2-l fw6 pc-red ttu tracked-l mt4 mt5-l ph3">
         Structured to fit into your Startup <br />
         guaranteed to help solve problems with AI
       </p>
 
-      <p class="f3 w-60 center mt5 tracked pc-gray">
+      <p class="f4 w-90 w-60-l center mt5 tracked pc-gray">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
       </p>
 
       <!-- phan 3 cot -->
-      <div class="w-60 flex center mt5">
-        <div class="w-third pa3 flex flex-column items-center ph4">
+      <div class="w-90 w-60-l flex flex-column flex-row-l center mt5">
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4">
           <img src="images/svg_earth.svg" alt="" class="pt4" />
           <p class="pt4 f3 fw6 pc-red">Lorem ipsum dolor sit amet</p>
           <p class="pt4 f5 pc-dark-gray lh-copy">
@@ -136,7 +202,7 @@
           </p>
         </div>
 
-        <div class="w-third pa3 flex flex-column items-center ph4">
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4">
           <img src="images/svg_pc.svg" alt="" class="pt4" />
           <p class="pt4 f3 fw6 pc-red">Lorem ipsum dolor sit amet</p>
           <p class="pt4 f5 pc-dark-gray lh-copy">
@@ -147,7 +213,7 @@
           </p>
         </div>
 
-        <div class="w-third pa3 flex flex-column items-center ph4">
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4">
           <img src="images/svg_notebook.svg" alt="" class="pt4" />
           <p class="pt4 f3 fw6 pc-red">Lorem ipsum dolor sit amet</p>
           <p class="pt4 f5 pc-dark-gray lh-copy">
@@ -161,50 +227,361 @@
     </div>
 
     <!-- <img
+      src="./layout/mb_1_introduction.png"
+      alt=""
+      class="db db-m dn-l w-100"
+    /> -->
+
+    <!-- <div class="pv4 bg-light-yellow">clgt</div>
+
+    <div class="pv4 bg-light-green">clgt</div> -->
+
+    <!-- <img
       src="./layout/block_1_introduce.png"
       alt=""
       class="dn dn-m db-l w-100"
     /> -->
 
     <!-- todo -->
-    <img
-      src="./layout/block_2_solution.png"
-      alt=""
-      class="dn dn-m db-l w-100"
-    />
-    <img src="./layout/mb_2_solution.png" alt="" class="db db-m dn-l w-100" />
+    <!-- solution -->
 
-    <!-- desktop - content -->
-    <img src="./layout/mb_3_content.png" alt="" class="db db-m dn-l w-100" />
-    <img src="./layout/block_3_content.png" alt="" class="dn dn-m db-l w-100" />
-    <!-- end desktop - content -->
-
-    <!-- desktop - mentorship -->
-    <div
-      id="desktop-mentorship"
-      class="dn flex-l flex-column w-90 center mt2 pv5"
-    >
+    <!-- solution desktop -->
+    <div class="dn db-l w-100 mt5 lexend">
       <div class="w-70 center">
-        <p class="_title f2 fw6 pc-red ttu tracked-mega">MENTORSHIP</p>
+        <p class="_title f2 fw6 pc-red tc tracked-mega ttu">
+          problems and solutions?
+        </p>
 
-        <div class="_4_hinh flex mt4">
-          <div class="w-25">
-            <img src="images/mentoships.png" alt="" class="w-90 br4" />
+        <div class="_mansory w-100 flex flex-wrap justify-around mt5">
+          <!-- cot 1 -->
+          <div class="w-40 pa2">
+            <!-- khoi 1 -->
+            <div class="w-100 pa3">
+              <p class="f3 fw6 pc-red ttu tracked-mega">
+                01 _ Lorem ipsum dolor sit amet
+              </p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f6">
+                Over half of the leading Startup teams report they are using AI
+                in some way, but 75% of teams get stuck on how to apply AI to
+                their business and get the most out of it. Same in Vietnam, many
+                startups face a variety of AI roadblocks and can't find
+                solutions yet - not to mention they even don't notice about this
+                (blindspot). What are the reasons behind? Below might be some: •
+                Lack of connection of AI Experts with practical touchpoints •
+                Lack of business/market experience • Don't know how to apply AI
+                to their business at the best with specific stages
+              </p>
+            </div>
+
+            <!-- khoi 3 -->
+            <div class="w-100 pa3">
+              <p class="f3 fw6 pc-red ttu tracked-mega">
+                03 _ Lorem ipsum dolor sit amet
+              </p>
+              <img src="images/thanhtich.png" alt="" class="w-100 mt4" />
+            </div>
+            <!-- khoi 5 -->
+
+            <div class="w-100 pa3">
+              <img src="images/solutions.png" alt="" class="w-100 mt4" />
+            </div>
           </div>
-          <div class="w-25 tc">
-            <img src="images/mentoships.png" alt="" class="w-90 br4" />
-          </div>
-          <div class="w-25 tc">
-            <img src="images/mentoships.png" alt="" class="w-90 br4" />
-          </div>
-          <div class="w-25 tr">
-            <img src="images/mentoships.png" alt="" class="w-90 br4" />
+
+          <!-- cot 2 -->
+          <div class="w-40 pa2 flex flex-column justify-end">
+            <!-- khoi 2 -->
+            <div class="w-100 pa3">
+              <p class="f3 fw6 pc-red ttu tracked-mega">
+                02 _ Lorem ipsum dolor sit amet
+              </p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f6">
+                Over half of the leading Startup teams report they are using AI
+                in some way, but 75% of teams get stuck on how to apply AI to
+                their business and get the most out of it. Same in Vietnam, many
+                startups face a variety of AI roadblocks and can't find
+                solutions yet - not to mention they even don't notice about this
+                (blindspot). What are the reasons behind? Below might be some: •
+                Lack of connection of AI Experts with practical touchpoints •
+                Lack of business/market experience • Don't know how to apply AI
+                to their business at the best with specific stages
+              </p>
+
+              <img src="images/video.png" alt="" class="w-100 mt4" />
+            </div>
+            <!-- khoi 4 -->
+            <div class="w-100 pa3">
+              <p class="f3 fw6 pc-red ttu tracked-mega">
+                04 _ Lorem ipsum dolor sit amet
+              </p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f6">
+                That's why <b>AI BOOTCAMP FOR FOUNDER (ABFF)</b> - Organized by
+                VietAI & Do Venture was born. VietAI, a non-profit organization
+                with a high mission of building Vietnam AI Community - is
+                willing to​connect with top AI Experts and the community of
+                Serial Entrepreneurs from Silicon Valley to bring top-notch
+                knowledge and its practices to support Startups in Vietnam and
+                Vietnam development in the next 5-10 years. This is a one-
+                of-the-kind program designed for Founders in Vietnam
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <img src="./layout/mb_4_mentorship.png" alt="" class="db db-m dn-l w-100" />
+    <!-- solution mobile -->
+
+    <!-- <div class="pv4 bg-light-yellow">clgt</div>
+
+    <div class="pv4 bg-light-green">clgt</div> -->
+
+    <div class="db dn-l w-100 pv5">
+      <p class="w-90 center f2 tc fw6 pc-red ttu tracked-l lh-copy">
+        PROBLEMS AND SOLUTIONS?
+      </p>
+
+      <!-- khoi 1 -->
+
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">01 _ Lorem ipsum dolor sit amet</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Over half of the leading Startup teams report they are using AI in
+          some way, but 75% of teams get stuck on how to apply AI to their
+          business and get the most out of it. Same in Vietnam, many startups
+          face a variety of AI roadblocks and can't find solutions yet - not to
+          mention they even don't notice about this (blindspot). What are the
+          reasons behind? Below might be some: • Lack of connection of AI
+          Experts with practical touchpoints • Lack of business/market
+          experience • Don't know how to apply AI to their business at the best
+          with specific stages
+        </p>
+      </div>
+
+      <!-- khoi 2 -->
+
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">02 _ Lorem ipsum dolor sit amet</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Over half of the leading Startup teams report they are using AI in
+          some way, but 75% of teams get stuck on how to apply AI to their
+          business and get the most out of it. Same in Vietnam, many startups
+          face a variety of AI roadblocks and can't find solutions yet - not to
+          mention they even don't notice about this (blindspot). What are the
+          reasons behind? Below might be some:
+        </p>
+        <img src="images/video.png" alt="" class="w-100 mt4" />
+      </div>
+
+      <!-- khoi 3 -->
+
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">03 _ Lorem ipsum dolor sit amet</p>
+
+        <img src="images/thanhtich.png" alt="" class="w-100 mt4" />
+      </div>
+
+      <!-- khoi 4 -->
+
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">02 _ Lorem ipsum dolor sit amet</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Over half of the leading Startup teams report they are using AI in
+          some way, but 75% of teams get stuck on how to apply AI to their
+          business and get the most out of it.
+        </p>
+        <img src="images/solutions.png" alt="" class="w-100 mt4" />
+      </div>
+    </div>
+
+    <!-- <img src="./layout/mb_2_solution.png" alt="" class="db db-m dn-l w-100" /> -->
+    <!-- <img
+      src="./layout/block_2_solution.png"
+      alt=""
+      class="dn dn-m db-l w-100"
+    /> -->
+    <!--  endd solution -->
+
+    <!-- <img src="./layout/mb_3_content.png" alt="" class="db db-m dn-l w-100" /> -->
+
+    <!-- desktop - content -->
+    <div class="w-100 bg-black-05 pv5 overflow-hidden">
+      <div class="_title f2 fw6 pc-red ttu tracked tc ph4">
+        what you will learn in this <span class="dn dib-l"> bootcamp?</span>
+      </div>
+
+      <!-- mobile -->
+      <div class="flex dn-l w-300 justify-start mt4 pa3 overflow-scroll">
+        <div
+          class="br3 ph2 ph3-l pv3 mh3 w6 pc-white bg-pc-red tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+
+      <!--  desktop -->
+      <div class="dn w-100 flex-l justify-center mt4">
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+        <div
+          class="ba b--black-30 br3 ph4 pv3 mh3 w45 black-50 bg-white tc lh-copy tracked f6"
+        >
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+
+      <p class="w-80 w-60=l tl tc-l black-70 center mt4 f6 lh-copy tracked">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet
+      </p>
+    </div>
+
+    <!-- <img src="./layout/block_3_content.png" alt="" class="dn dn-m db-l w-100" /> -->
+    <!-- end desktop - content -->
+
+    <!-- mentoship -->
+
+    <!-- mobile mentoship -->
+
+    <!-- <div class="w-100 flex flex-columns items-center justify-center pv4 ba b--green">
+      <p class="_title f3 fw6 pc-red ttu tracked">MENTORSHIP</p>
+    </div>
+     -->
+    <!-- desktop - mentorship -->
+    <div
+      id="desktop-mentorship"
+      class="flex flex-l flex-column w-90 center mt2 pv5"
+    >
+      <div class="w-90 w-70-l center">
+        <p class="_title f3 fw6 pc-red ttu tracked tc">MENTORSHIP</p>
+
+        <div class="_4_hinh flex flex-column flex-row-l mt4">
+          <div class="w-100 w-25-l tc tl-l pv2 pv0-l">
+            <img src="images/mentoships.png" alt="" class="w-90 br4 pointer" />
+          </div>
+
+          <div class="db dn-l">
+            <div
+              class="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy"
+            >
+              <p class="f3">THANG LUONG</p>
+              <div class="w-100 bb b--white-50 mt3 mb2"></div>
+              <p class="fw2 lh-copy tracked">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata.
+              </p>
+              <p class="mt3 pc-yellow tracked ttu">READ MORE</p>
+            </div>
+          </div>
+          <div class="w-100 w-25-l tc pv2 pv0-l">
+            <img src="images/mentoships.png" alt="" class="w-90 br4 pointer" />
+          </div>
+          <div class="w-100 w-25-l tc pv2 pv0-l">
+            <img src="images/mentoships.png" alt="" class="w-90 br4 pointer" />
+          </div>
+          <div class="w-100 w-25-l tc tr-l pv2 pv0-l">
+            <img src="images/mentoships.png" alt="" class="w-90 br4 pointer" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal Mentoship Info -->
+
+    <div
+      class="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative"
+    >
+      <p class="_btn-close white pointer tr absolute top-1 right-1">X</p>
+
+      <img src="images/mentoships.png" alt="" class="br4 w-25" />
+
+      <div class="w-60 pr4">
+        <p class="_mentor-name f2 lh-copy">THẮNG LƯƠNG</p>
+        <p class="_mentor-title lh-copy">PhD at NYD</p>
+
+        <p class="_mentor-info lh-copy mt3">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+      </div>
+    </div>
+
+    <!-- <img
+      src="./layout/mb_4_mentorship.png"
+      alt=""
+      class="db db-m dn-l ba b--green w-90 bw3 center"
+    /> -->
     <!-- <img
       src="./layout/block_4_mentorship.png"
       alt=""
@@ -214,11 +591,27 @@
 
     <!-- dang ky -->
 
-    <img src="./layout/mb_5_dangky.png" alt="" class="db db-m dn-l w-100" />
+    <!-- mobile đang ky -->
 
-    <div class="dn db-l center w-70 tc pv3">
-      <p class="_title f2 fw6 pc-red ttu tracked-mega tc">ĐĂNG KÝ</p>
-      <p class="pt4 f5 pc-light-black lh-copy w-70 center">
+    <div class="w-100 db tc mt4">
+      <p class="pc-green f5 fw6 tracked-mega">PROGRESS</p>
+
+      <!-- <div class="_mb-progress">mobile</div> -->
+      <div
+        class="flex dn-l items-start justify-between w-90 center tracked mb3 pv3 ph4 ph5-l br3 mt4 ba b--black-20 pointer lh-copy b cau-hoi ttu"
+      >
+        <p>1 - Đăng ký</p>
+        <img
+          src="images/svg_arrow_down.svg"
+          alt=""
+          class="w1 w2-l ml2 ml4-l mt2"
+        />
+      </div>
+
+      <!-- <div class="_mb-progress">desktop</div> -->
+
+      <p class="_title f3 fw6 pc-red ttu tracked tc mt4">ĐĂNG KÝ</p>
+      <p class="pt4 f5 pc-light-black lh-copy w-90 w-60-l center">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -228,7 +621,24 @@
       </p>
     </div>
 
-    <div class="dn flex-l w-100 justify-center mt5 mb7 relative">
+    <!-- <img src="./layout/mb_5_dangky.png" alt="" style = "width: 97%;" class="db db-m dn-l center ba b--green bw2" /> -->
+
+    <!-- desktop dangky -->
+    <!-- dn db-l -->
+    <!-- <div class="db center w-100 w-70-l tc pv3 mt5">
+      <p class="pc-green f5 fw6 tracked-mega">PROGRESS</p>
+      <p class="_title f2 fw6 pc-red ttu tracked-mega mt3">ĐĂNG KÝ</p>
+      <p class="pt4 f6 f5-l pc-light-black lh-copy w-80 w-70-l center">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy
+      </p>
+    </div> -->
+
+    <div class="dn flex-l w-100 justify-center mt5 mb6 relative">
       <div class="w-20 z-1">
         <img src="images/dangky.png" alt="" class="w-100 br5 top--3" />
       </div>
@@ -261,8 +671,11 @@
     <!-- end dang ky -->
 
     <!-- tuition -->
-    <img src="./layout/mb_6_tuition.png" alt="" class="db db-m dn-l w-100" />
 
+    <!-- mobile tuition -->
+    <!-- <img src="./layout/mb_6_tuition.png" alt="" class="db db-m dn-l w-100" /> -->
+
+    <!-- desktop tuition -->
     <div class="w-100 dn db-l">
       <div class="w-60 center tc pv3">
         <p class="_title f2 fw6 pc-red ttu tracked-mega">TUITION</p>
@@ -277,7 +690,7 @@
 
         <div class="w-100 flex mt6">
           <div class="_cot1 w-25 pr3">
-            <div class="bg-pc-near-white pv4 ph5 br4">
+            <div class="bg-pc-near-white pv4 ph4 br4">
               <div class="f3 fw6 pc-black">
                 LOREM IPSUM <br />
                 DOLOR SIT
@@ -299,7 +712,7 @@
           </div>
 
           <div class="_cot1 w-25 ph2 relative">
-            <div class="bg-pc-red br4 pv4 ph5 absolute top--3 left-0 mh2">
+            <div class="bg-pc-red br4 pv4 ph4 absolute top--3 left-0 mh2">
               <div class="f3 fw6 pc-white">
                 LOREM IPSUM <br />
                 DOLOR SIT
@@ -321,7 +734,7 @@
           </div>
 
           <div class="_cot1 w-25 ph2">
-            <div class="bg-pc-near-white pv4 ph5 br4">
+            <div class="bg-pc-near-white pv4 ph4 br4">
               <div class="f3 fw6 pc-black">
                 LOREM IPSUM <br />
                 DOLOR SIT
@@ -343,7 +756,7 @@
           </div>
 
           <div class="_cot1 w-25 pl3">
-            <div class="bg-pc-near-white pv4 ph5 br4">
+            <div class="bg-pc-near-white pv4 ph4 br4">
               <div class="f3 fw6 pc-black">
                 LOREM IPSUM <br />
                 DOLOR SIT
@@ -366,7 +779,6 @@
         </div>
       </div>
     </div>
-
     <!-- <img src="./layout/block_6_tuition.png" alt="" class="dn dn-m db-l w-100" /> -->
 
     <!-- end tuition -->
@@ -385,38 +797,42 @@
         </div>
       </div>
     </div>
-    <img src="./layout/mb_7_partners.png" alt="" class="db db-m dn-l w-100" />
-    <!-- <img src="./layout/block_7_partner.png" alt="" class="dn dn-m db-l w-100" /> -->
-    <!-- partner -->
+    <!-- <img src="./layout/mb_7_partners.png" alt="" class="db db-m dn-l w-100" /> -->
+    <!-- end partner -->
 
     <!-- qa -->
-
-    <!-- BLOCK HOI DAP -->
     <div class="w-100">
-      <div class="w-70 center flex flex-column items-center">
+      <div class="w-100 w-70-l center flex flex-column items-center">
         <p class="_qa-title f2 fw6 tracked pc-red pv4">Q&A</p>
 
         <div
-          class="w-90 cau-hoi tracked mb3 pv3 ph5 br4 ba b--black-20 flex justify-between items-center pointer"
+          class="w-90 w-100-l tracked mb3 pv3 ph3 ph5-l br4 ba b--black-20 flex pointer lh-copy b cau-hoi items-start"
         >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
             autem possimus molestias velit cupiditate sed, asp?
           </p>
-          <img src="images/svg_arrow_down.svg" alt="" class="w2 ml4" />
+          <img
+            src="images/svg_arrow_down.svg"
+            alt=""
+            class="w1 w2-l ml2 ml4-l mt2"
+          />
         </div>
 
         <div
-          class="w-90 pv3 ph5 br4 ba b--black-20 br--top flex justify-between items-center pointer cau-hoi-active mb0"
+          class="w-90 w-100-l tracked pv3 ph3 ph5-l br4 ba b--black-20 flex pointer lh-copy b pointer cau-hoi-active mb0 justify-between br--top items-start"
         >
-          <p>Tiêu chí xét tuyển như thế nào?</p>
-          <img src="images/svg_arrow_up.svg" alt="" class="w2 ml4" />
+          <p>Lautem possimus molestias velit cupiditate sed, asp?</p>
+          <img
+            src="images/svg_arrow_up.svg"
+            alt=""
+            class="w1 w2-l ml2 ml4-l mt2"
+          />
         </div>
 
         <div
-          class="w-90 pv3 ph5 br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3"
+          class="w-90 w-100-l pv3 ph3 ph5-l br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3"
         >
-          <!-- <div class="w-80 ph4 mb3  b--black-10 black-90 cau-tra-loi ba pv3 anCauTraLoi"> -->
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
           autem possimus molestias velit cupiditate sed, asperiores iusto illum
           mollitia voluptatibus ad repellendus repudiandae ab, excepturi
@@ -435,23 +851,31 @@
         </div>
 
         <div
-          class="w-90 cau-hoi tracked mb3 pv3 ph5 br4 ba b--black-20 flex justify-between items-center pointer"
+          class="w-90 w-100-l tracked mb3 pv3 ph3 ph5-l br4 ba b--black-20 flex pointer lh-copy b cau-hoi items-start"
         >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
             autem possimus molestias velit cupiditate sed, asp?
           </p>
-          <img src="images/svg_arrow_down.svg" alt="" class="w2 ml4" />
+          <img
+            src="images/svg_arrow_down.svg"
+            alt=""
+            class="w1 w2-l ml2 ml4-l mt2"
+          />
         </div>
 
         <div
-          class="w-90 cau-hoi tracked mb3 pv3 ph5 br4 ba b--black-20 flex justify-between items-center pointer"
+          class="w-90 w-100-l tracked mb3 pv3 ph3 ph5-l br4 ba b--black-20 flex pointer lh-copy b cau-hoi items-start"
         >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
             autem possimus molestias velit cupiditate sed, asp?
           </p>
-          <img src="images/svg_arrow_down.svg" alt="" class="w2 ml4" />
+          <img
+            src="images/svg_arrow_down.svg"
+            alt=""
+            class="w1 w2-l ml2 ml4-l mt2"
+          />
         </div>
 
         <div class="bg-pc-green ph4 pv3 br3 white fw6 f7 ttu pointer dim">
@@ -459,20 +883,29 @@
         </div>
       </div>
     </div>
-    <!-- END BLOCK HOI DAP -->
-
-    <!-- <img src="./layout/mb_8_qa.png" alt="" class="db db-m dn-l w-100" />
-    <img src="./layout/block_8_qa.png" alt="" class="dn dn-m db-l w-100" /> -->
-
     <!-- end qa -->
 
-    <img src="./layout/block_9_footer.png" alt="" class="dn dn-m db-l w-100" />
-    <img src="./layout/mb_9_footer.png" alt="" class="db db-m dn-l w-100 mb4" />
+    <!-- footer -->
+    <div
+      class="w-100 center pt3 pb4 ph4 flex justify-between bg-pc-red pc-white mb4 mb0-l mt3"
+    >
+      <img src="images/logo_white.svg" class="pr4 w25" />
+      <div class="lh-copy h-100 flex flex-column justify-between items-end">
+        <div class="">
+          <img src="images/instagram.svg" alt="" class="ml4" />
+          <img src="images/twitter.svg" alt="" class="ml4" />
+          <img src="images/fb.svg" alt="" class="ml4" />
+        </div>
+        <p class="copyright dn db-l mt3">Copyright 2010 @ VietAI</p>
+      </div>
+    </div>
+    <!-- end footer -->
 
-    <img
-      src="./layout/mb_apply_button.png"
-      alt=""
-      class="db db-m dn-l w-100 fixed bottom-0"
-    />
+    <!--  -->
+    <div
+      class="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer fixed bottom-0"
+    >
+      APPLY NOW
+    </div>
   </body>
 </html>
