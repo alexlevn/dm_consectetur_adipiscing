@@ -20,12 +20,17 @@
   color: #018e42;
 }
 
-.pc-yellow{
-  color: #F7D002;
+.pc-yellow {
+  color: #f7d002;
 }
 
 .bg-pc-green {
   background-color: #018e42;
+}
+
+.bg-pc-pink {
+  background-color: #df1869;
+  opacity: 0.9;
 }
 
 .pc-red {
